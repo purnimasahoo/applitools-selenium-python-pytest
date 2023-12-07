@@ -20,4 +20,18 @@ Run the following command (which works on any operating system):
 
 pip3 install -r requirements.txt
 
+Deciding how to run tests
+
+The test uses Selenium WebDriver to automate the browser. There are two places to run your Selenium WebDriver session:
+
+On your local machine (which is the default option)
+On Applitools Execution Cloud
+If you run WebDriver locally, then you need to set it up and manage it yourself. If you use Execution Cloud, then Applitools will manage WebDriver for you. It will also automatically heal broken locators and wait for elements to be ready. 
+
+There are two ways to test the visual snapshots captured by the test:
+
+Using Applitools Ultrafast Grid for cross-browser testing in the cloud
+Using Applitools Classic runner on your local machine
+
+
 
