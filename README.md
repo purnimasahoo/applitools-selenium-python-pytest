@@ -33,5 +33,10 @@ There are two ways to test the visual snapshots captured by the test:
 Using Applitools Ultrafast Grid for cross-browser testing in the cloud
 Using Applitools Classic runner on your local machine
 
+### Explanation for conf_data:
+
+1. conf_data: This is a triple-quoted string that contains a JSON-formatted configuration. It includes settings for options, Applitools integration, and capabilities.
+
+
 
 
