@@ -63,5 +63,8 @@ filterwarnings:
 
 Ignores specific types of warnings during test execution. In this case, it ignores DeprecationWarning and UserWarning messages.
 
+### conftest.py
+The generated "conftest.py" file can be used to share fixtures and setup/teardown code across multiple test modules within a pytest project. It's a convenient way to centralize common test infrastructure.
+
 
 
